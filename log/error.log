@@ -1,0 +1,98 @@
+2021/06/13 01:42:23 [crit] 1#1: pread() "/etc/nginx/conf.d/cred.conf" failed (21: Is a directory)
+2021/06/13 01:49:16 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/06/13 01:49:16 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
+2021/06/13 01:49:16 [notice] 1#1: using the "epoll" event method
+2021/06/13 01:49:16 [notice] 1#1: nginx/1.21.0
+2021/06/13 01:49:16 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/13 01:49:16 [notice] 1#1: OS: Linux 5.8.0-55-generic
+2021/06/13 01:49:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/13 01:49:16 [notice] 1#1: start worker processes
+2021/06/13 01:49:16 [notice] 1#1: start worker process 32
+2021/06/13 01:49:16 [notice] 1#1: start worker process 33
+2021/06/13 01:49:16 [notice] 1#1: start worker process 34
+2021/06/13 01:49:16 [notice] 1#1: start worker process 35
+2021/06/13 01:50:02 [notice] 1#1: signal 2 (SIGINT) received, exiting
+2021/06/13 01:50:02 [notice] 34#34: exiting
+2021/06/13 01:50:02 [notice] 32#32: exiting
+2021/06/13 01:50:02 [notice] 33#33: exiting
+2021/06/13 01:50:02 [notice] 32#32: exit
+2021/06/13 01:50:02 [notice] 34#34: exit
+2021/06/13 01:50:02 [notice] 33#33: exit
+2021/06/13 01:50:02 [notice] 35#35: exiting
+2021/06/13 01:50:02 [notice] 35#35: exit
+2021/06/13 01:50:02 [notice] 1#1: signal 14 (SIGALRM) received
+2021/06/13 01:50:02 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/06/13 01:50:02 [notice] 1#1: worker process 33 exited with code 0
+2021/06/13 01:50:02 [notice] 1#1: worker process 35 exited with code 0
+2021/06/13 01:50:02 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/13 01:50:02 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/06/13 01:50:02 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/06/13 01:50:02 [notice] 1#1: worker process 34 exited with code 0
+2021/06/13 01:50:02 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/13 01:50:02 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/06/13 01:50:02 [notice] 1#1: worker process 32 exited with code 0
+2021/06/13 01:50:02 [notice] 1#1: exit
+2021/06/13 01:51:29 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/06/13 01:51:29 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
+2021/06/13 01:51:29 [notice] 1#1: using the "epoll" event method
+2021/06/13 01:51:29 [notice] 1#1: nginx/1.21.0
+2021/06/13 01:51:29 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/13 01:51:29 [notice] 1#1: OS: Linux 5.8.0-55-generic
+2021/06/13 01:51:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/13 01:51:29 [notice] 1#1: start worker processes
+2021/06/13 01:51:29 [notice] 1#1: start worker process 31
+2021/06/13 01:51:29 [notice] 1#1: start worker process 32
+2021/06/13 01:51:29 [notice] 1#1: start worker process 33
+2021/06/13 01:51:29 [notice] 1#1: start worker process 34
+2021/06/13 02:56:39 [notice] 1#1: signal 2 (SIGINT) received, exiting
+2021/06/13 02:56:39 [notice] 31#31: exiting
+2021/06/13 02:56:39 [notice] 32#32: exiting
+2021/06/13 02:56:39 [notice] 34#34: exiting
+2021/06/13 02:56:39 [notice] 33#33: exiting
+2021/06/13 02:56:39 [notice] 34#34: exit
+2021/06/13 02:56:39 [notice] 31#31: exit
+2021/06/13 02:56:39 [notice] 32#32: exit
+2021/06/13 02:56:39 [notice] 33#33: exit
+2021/06/13 02:56:39 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/06/13 02:56:39 [notice] 1#1: worker process 34 exited with code 0
+2021/06/13 02:56:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/13 02:56:39 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/06/13 02:56:39 [notice] 1#1: worker process 33 exited with code 0
+2021/06/13 02:56:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/13 02:56:39 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/06/13 02:56:39 [notice] 1#1: worker process 31 exited with code 0
+2021/06/13 02:56:39 [notice] 1#1: worker process 32 exited with code 0
+2021/06/13 02:56:39 [notice] 1#1: exit
+2021/06/13 13:35:39 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/06/13 13:35:39 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
+2021/06/13 13:35:39 [notice] 1#1: using the "epoll" event method
+2021/06/13 13:35:39 [notice] 1#1: nginx/1.21.0
+2021/06/13 13:35:39 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/13 13:35:39 [notice] 1#1: OS: Linux 5.8.0-55-generic
+2021/06/13 13:35:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/13 13:35:39 [notice] 1#1: start worker processes
+2021/06/13 13:35:39 [notice] 1#1: start worker process 31
+2021/06/13 13:35:39 [notice] 1#1: start worker process 32
+2021/06/13 13:35:39 [notice] 1#1: start worker process 33
+2021/06/13 13:35:39 [notice] 1#1: start worker process 34
+2021/06/13 13:36:09 [error] 32#32: *1 user "admin": password mismatch, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2021/06/13 13:37:02 [notice] 1#1: signal 28 (SIGWINCH) received
+2021/06/13 14:33:41 [notice] 1#1: signal 2 (SIGINT) received, exiting
+2021/06/13 14:33:41 [notice] 31#31: exiting
+2021/06/13 14:33:41 [notice] 34#34: exiting
+2021/06/13 14:33:41 [notice] 33#33: exiting
+2021/06/13 14:33:41 [notice] 34#34: exit
+2021/06/13 14:33:41 [notice] 33#33: exit
+2021/06/13 14:33:41 [notice] 32#32: exiting
+2021/06/13 14:33:41 [notice] 32#32: exit
+2021/06/13 14:33:41 [notice] 31#31: exit
+2021/06/13 14:33:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/06/13 14:33:41 [notice] 1#1: worker process 33 exited with code 0
+2021/06/13 14:33:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/13 14:33:41 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/06/13 14:33:41 [notice] 1#1: worker process 34 exited with code 0
+2021/06/13 14:33:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/13 14:33:41 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/06/13 14:33:41 [notice] 1#1: worker process 31 exited with code 0
+2021/06/13 14:33:41 [notice] 1#1: worker process 32 exited with code 0
+2021/06/13 14:33:41 [notice] 1#1: exit
